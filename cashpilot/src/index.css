@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {background-color: #1976D2;
+  font-family: Arial, sans-serif;
+}
+
 header {
   background-color: #4A90E2;
   color: white;
