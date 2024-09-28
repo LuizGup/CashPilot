@@ -1,9 +1,11 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import Logo from '../Logo';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-blue-500 p-4 flex items-center justify-between">
+        <header className="bg-gray-950 p-4 flex items-center justify-between">
+            <Logo/>
             <h1 className="text-white text-2xl">CashPilot</h1>
             <nav>
                 <ul className="flex space-x-4">
