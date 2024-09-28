@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {background-color: #1976D2;
+body {
+  background-color: #1976d2;
   font-family: Arial, sans-serif;
 }
 
 header {
-  background-color: #4A90E2;
+  background-color: #4a90e2;
   color: white;
   padding: 20px;
   text-align: center;
